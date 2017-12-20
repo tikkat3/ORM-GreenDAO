@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <TextView android:id="@+id/db_show"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:background="#bbb"
+        android:layout_marginTop="20dp"
+        android:textColor="#ff0000"
+        android:layout_centerHorizontal="true"/>
+
+
+    <LinearLayout
+        android:layout_below="@+id/db_show"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <Button android:id="@+id/db_add"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="增加"/>
+        <Button android:id="@+id/db_delete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="删除"/>
+        <Button android:id="@+id/db_update"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="修改"/>
+        <Button android:id="@+id/db_select"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="查询"/>
+    </LinearLayout>
+
+</RelativeLayout>
