@@ -1,4 +1,4 @@
-package com.example.ltx.orm_greendao;
+package com.example.ltx.orm_greendao.module.Home;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.ltx.orm_greendao.R;
 import com.example.ltx.orm_greendao.db.DBHelper;
 import com.example.ltx.orm_greendao.db.entity.DaoSession;
 import com.example.ltx.orm_greendao.db.entity.User;

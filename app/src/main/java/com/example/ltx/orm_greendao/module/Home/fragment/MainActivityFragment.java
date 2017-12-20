@@ -1,10 +1,12 @@
-package com.example.ltx.orm_greendao;
+package com.example.ltx.orm_greendao.module.Home.fragment;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.ltx.orm_greendao.R;
 
 /**
  * A placeholder fragment containing a simple view.
