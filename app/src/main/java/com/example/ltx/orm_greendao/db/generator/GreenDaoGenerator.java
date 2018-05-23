@@ -1,5 +1,7 @@
 package com.example.ltx.orm_greendao.db.generator;
 
+import java.util.ArrayList;
+
 import de.greenrobot.daogenerator.DaoGenerator;
 import de.greenrobot.daogenerator.Entity;
 import de.greenrobot.daogenerator.Schema;
@@ -46,3 +48,6 @@ public class GreenDaoGenerator {
     }
 
 }
+
+
+
